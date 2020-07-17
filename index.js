@@ -295,10 +295,22 @@ nationality: Your Nationality Here
 bio: Add 1-2 sentences (or use lorem ipsum) 
 
 At the end, this function should return the new array with information added"*/
+const shaAdkins = {
+  id: 20,
+  name: "Sha Adkins",
+  years: "1991 - Friday, July 17th 2020",
+  genre: "Web Design",
+  nationality: "american",
+  bio:
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+};
 
-function addArtist(/* Code here */) {
-  /* Code here */
+function addArtist(arr, newSubmission) {
+  arr.push(newSubmission);
+  console.log(arr);
 }
+
+addArtist(artists, shaAdkins);
 
 /* Task 7: Create a function called lotsOfArt() that takes one argument: 
 

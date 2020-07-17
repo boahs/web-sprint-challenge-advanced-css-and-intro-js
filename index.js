@@ -383,3 +383,5 @@ let refactorArray = artists.map((newArtists) => {
   rObj[artists[10]] = artists.deceased;
   return rObj;
 });
+
+console.log(refactorArray);

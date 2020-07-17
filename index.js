@@ -273,10 +273,13 @@ function get20s(array) {
  * For example, if removeArtist is invoked with the data and the number 0,
  * it will remove Amedeo Modigliani from our dataset and log the number 19.
  *
- * Note that sucessfully invoking this function multiple times without refreshing your browser will continuously remove artists from the array until there are none left. If you refresh your browser, the data will reset.
+ * Note that sucessfully invoking this function multiple times without refreshing your browser
+ * will continuously remove artists from the array until there are none left. If you refresh your browser,
+ * the data will reset.
  */
-function removeArtist(/*code here*/) {
-  /* code here */
+function removeArtist(arr, num) {
+  arr.splice(num, 1);
+  console.log(arr.length);
 }
 
 /**

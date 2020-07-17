@@ -196,9 +196,3 @@ button:hover {
         font-size: 100%;
     }
 }
-
-.site-content #navBar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
